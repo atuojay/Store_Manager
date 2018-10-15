@@ -1,0 +1,125 @@
+body{
+    background-color:lightcyan;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+#showcase{
+    background-image: url(managers.jpg);
+}
+#plain{
+    background-image: none;
+    background-color: lightblue;
+}
+.container{
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+}
+header{
+    background-color: black;
+}
+
+header h1 span{
+    color: crimson;
+}
+
+header h1{
+    float:left;
+    color: wheat;
+}
+
+header a{
+    float: right;
+    padding: 35px;
+    margin:auto;
+    color:azure;
+    text-decoration: none;
+    font-weight: bold;
+}
+header a:hover{
+    color:teal;
+}
+form {
+    position: absolute;
+    left:35%;
+}
+
+.loginbox{
+    width:420px;
+    min-height:420px;
+    background-color: azure;
+    left:35%;
+    color:black;
+    position:absolute;
+    box-sizing:border-box;
+    padding:50px 30px;
+    margin-top:50px;
+}
+.loginbox h1{
+    margin:0;
+    padding:0 0 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.loginbox p{
+    margin:0;
+    padding:0;
+    font-weight:bold;
+}
+.loginbox input{
+    width:100%;
+    margin-bottom:20px;
+    height:30px;
+}
+.loginbox input[type="submit"]{
+    border:none;
+    outline:none;
+    height:40px;
+    background:brown;
+    color:white;
+    font-size:18px;
+    border-radius:20px;
+}
+#simple input[type="submit"]{
+    border:none;
+    outline:none;
+    height:40px;
+    background-color:darkcyan;
+    color:white;
+    font-size:18px;
+    border-radius:20px;
+}
+table{
+    width:100%;
+    margin-top: 50px;
+}
+table,th,td{
+    border:1px solid black;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color:gray;
+}
+li{
+    float: left;
+}
+li a{
+    display:block;
+    color:white;
+    padding:14px 16px;
+    text-decoration: none;
+    text-align:center;
+}
+li a:hover{
+    background-color:black;
+}
+.active{
+    background-color: black;
+}
+li:last-child{
+    float:right;
+}
